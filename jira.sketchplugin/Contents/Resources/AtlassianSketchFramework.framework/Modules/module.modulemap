@@ -1,6 +1,0 @@
-framework module AtlassianSketchFramework {
-  umbrella header "AtlassianSketchFramework.h"
-
-  export *
-  module * { export * }
-}

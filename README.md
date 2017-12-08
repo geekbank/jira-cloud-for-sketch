@@ -81,15 +81,7 @@ dependencies in frontend code, as the Cocoa classes will be missing from the
 frontend context.
 
 #### Persistence
-
-Most configuration is stored in user modifiable file at
-`jira.sketchplugin/Contents/Resource/config.json`. This file is read once
-at startup (see `src/config.js`), so Sketch will need to be restarted to pick
-up any modifications.
-
-Properties and settings that are modified at runtime are stored in a macOS
-`plist` that lives at `~/Library/Preferences/plugin.sketch.jira-sketch-plugin`
-(see `src/prefs.js`).
+asjidohajlfash
 
 #### Jira authentication and integration
 
